@@ -1,0 +1,13 @@
+To run your depression detection project, you'll need the following Python libraries. I'll list the core libraries you used in your scripts, which will form your requirements.txt file.
+
+transformers: This is the main library for using the BERT model, tokenizer, and the Trainer class.
+
+torch: This is the deep learning framework that powers the entire model.
+
+datasets: This library is used to load and manage your dataset from the Hugging Face Hub.
+
+pandas: This library is used for data manipulation, particularly when you convert your dataset to a DataFrame.
+
+scikit-learn: This library is used for computing evaluation metrics like accuracy and for splitting your data.
+
+numpy: This is a fundamental library for numerical operations, often used in conjunction with scikit-learn and torch.
